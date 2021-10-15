@@ -1,0 +1,64 @@
+/* BUTTON STYLE */
+
+.btn {
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    background-color: whitesmoke;
+    border: 2px solid teal;
+    border-radius: 20px;
+    color: teal;
+    font-weight: bold;
+}
+
+/* FLEX COLUMNS */
+
+.row {
+    display: flex;
+    color: white;
+}
+
+.col {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(27, 105, 221);
+}
+
+/* FLEX NAVBAR */
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 5px 15px;
+}
+
+h1.nav-title {
+    color: white;
+}
+
+ul.nav-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button.btn {
+    background-color: rgb(28, 131, 214);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    color: white;
+}
+
